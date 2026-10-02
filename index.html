@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Raphael Bettio — Provas de Conceito e Protótipos</title>
+<meta name="description" content="Provas de conceito e protótipos para startups e empresas validarem ideias, testarem com usuários ou captarem recursos — em semanas, com escopo fechado.">
+<meta property="og:title" content="Raphael Bettio — Provas de Conceito e Protótipos">
+<meta property="og:description" content="Sua ideia funcionando em semanas, para validar, testar ou captar recursos.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230f766e'/%3E%3Ctext x='16' y='22' font-family='Arial' font-weight='700' font-size='15' fill='white' text-anchor='middle'%3ERB%3C/text%3E%3C/svg%3E">
+<link rel="alternate" hreflang="pt-BR" href="https://raphaelwb.github.io/consultoria/">
+<link rel="alternate" hreflang="en" href="https://raphaelwb.github.io/consultoria/en/">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm0 18.15h-.01a8.23 8.23 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.82c0 4.54-3.7 8.23-8.23 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.16.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.15.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.24 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.28Z"/></symbol>
+  <symbol id="i-li" viewBox="0 0 24 24"><path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M4 5h16a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1Zm-1 1 9 7 9-7"/></symbol>
+</svg>
+
+<header>
+  <div class="wrap">
+    <a class="brand" href="#">Raphael Bettio <span>· Provas de Conceito e Protótipos</span></a>
+    <nav>
+      <a class="link" href="#como-funciona">Como funciona</a>
+      <a class="link" href="#pacotes">Pacotes</a>
+      <a class="link" href="#sobre">Sobre</a>
+      <a class="btn btn-wa btn-sm js-wa" href="#contato"><svg><use href="#i-wa"/></svg>Conversar</a>
+      <div class="lang">
+        <a href="./" aria-current="true" title="Português" aria-label="Português"><svg viewBox="0 0 22 15" aria-hidden="true"><rect width="22" height="15" fill="#009c3b"/><path d="M11 1.6 20.2 7.5 11 13.4 1.8 7.5Z" fill="#ffdf00"/><circle cx="11" cy="7.5" r="3.4" fill="#002776"/></svg></a>
+        <a href="en/" title="English" aria-label="English"><svg viewBox="0 0 22 15" aria-hidden="true"><rect width="22" height="15" fill="#fff"/><path d="M0 0h22v1.15H0zm0 2.3h22v1.15H0zm0 2.3h22v1.15H0zm0 2.3h22v1.15H0zm0 2.3h22v1.15H0zm0 2.3h22v1.15H0zm0 2.3h22V15H0z" fill="#b22234"/><rect width="9.5" height="8.05" fill="#3c3b6e"/></svg></a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="wrap">
+    <div class="eyebrow">Provas de conceito · Protótipos · MVPs técnicos</div>
+    <h1>Sua ideia funcionando<br>em <em>semanas</em>, não em meses.</h1>
+    <p class="lead">Construo provas de conceito e protótipos para startups e empresas que precisam validar uma hipótese, testar com usuários reais ou apresentar algo concreto a investidores e editais de fomento.</p>
+    <div class="actions">
+      <a class="btn btn-wa js-wa" href="#contato"><svg><use href="#i-wa"/></svg>Conversar no WhatsApp</a>
+      <a class="btn btn-ghost" href="#pacotes">Ver pacotes</a>
+    </div>
+    <div class="creds">
+      <div>Professor Titular em Computação</div>
+      <div>Doutor em Engenharia do Conhecimento</div>
+      <div>+10 anos no mercado de software</div>
+      <div>Softwares registrados no INPI</div>
+    </div>
+  </div>
+</section>
+
+<!-- Para quem -->
+<section class="alt" id="para-quem">
+  <div class="wrap">
+    <div class="eyebrow">Para quem é</div>
+    <h2>Quando a ideia precisa sair do papel antes de virar produto</h2>
+    <p class="section-intro">Uma prova de conceito responde a uma pergunta só: <strong>isso funciona?</strong> É o passo mais barato para descobrir — antes de contratar um time, gastar o investimento ou prometer o que ainda não foi testado.</p>
+    <div class="grid grid-3">
+      <div class="card">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09Z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2Z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></svg></div>
+        <h3>Startups antes de captar</h3>
+        <p>Algo que funciona de verdade para mostrar em pitch, banca ou rodada — no lugar de slides e promessas.</p>
+      </div>
+      <div class="card">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6"/></svg></div>
+        <h3>Empresas testando uma inovação</h3>
+        <p>Validar se uma ideia interna — uso de IA, sensoriamento, painel de dados — se sustenta antes de virar projeto grande.</p>
+      </div>
+      <div class="card">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3v4a1 1 0 0 0 1 1h4"/><path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2Z"/><path d="m9 15 2 2 4-4"/></svg></div>
+        <h3>Projetos para editais de fomento</h3>
+        <p>Prova de conceito ou protótipo, com a documentação técnica que demonstra o nível de maturidade tecnológica (TRL) que o edital pede.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- O que eu construo -->
+<section id="o-que-construo">
+  <div class="wrap">
+    <div class="eyebrow">O que eu construo</div>
+    <h2>Áreas em que tenho experiência prática</h2>
+    <p class="section-intro">Sistemas web completos em Python, do banco de dados à tela, prontos para serem demonstrados e testados.</p>
+    <div class="grid grid-3">
+      <div class="card">
+        <h3>IA generativa com controle</h3>
+        <p>Assistentes, geração de conteúdo e automações com LLMs — com validação automática do que a IA produz, não só um chat.</p>
+      </div>
+      <div class="card">
+        <h3>Dados e painéis</h3>
+        <p>Integração de fontes de dados, pipelines, indicadores e dashboards interativos.</p>
+      </div>
+      <div class="card">
+        <h3>Geoprocessamento e mapas</h3>
+        <p>Plataformas com dados geográficos, camadas, mapas e análises espaciais.</p>
+      </div>
+      <div class="card">
+        <h3>Educação e treinamento</h3>
+        <p>Plataformas de trilhas de aprendizagem, avaliação automática e tutores inteligentes.</p>
+      </div>
+      <div class="card">
+        <h3>IoT e dispositivos</h3>
+        <p>Protótipos com sensores e microcontroladores para coleta e monitoramento de dados.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Como funciona -->
+<section class="alt" id="como-funciona">
+  <div class="wrap">
+    <div class="eyebrow">Como funciona</div>
+    <h2>Escopo fechado, entregas curtas, sem surpresa</h2>
+    <p class="section-intro">Você sabe desde o início o que será entregue, em quanto tempo e o que fica de fora.</p>
+    <div class="steps">
+      <div class="step">
+        <h3>Conversa inicial</h3>
+        <p>Uma conversa sem custo para entender a ideia e ver se uma POC é mesmo o próximo passo certo.</p>
+      </div>
+      <div class="step">
+        <h3>Escopo por escrito</h3>
+        <p>A hipótese a provar, o que entra, o que não entra, prazo e valor — tudo num documento curto.</p>
+      </div>
+      <div class="step">
+        <h3>Ciclos com demonstração</h3>
+        <p>A cada ciclo você vê algo funcionando e pode corrigir o rumo cedo, não só no final.</p>
+      </div>
+      <div class="step">
+        <h3>Entrega</h3>
+        <p>Código-fonte, documentação, instruções para rodar e uma apresentação dos resultados.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Pacotes -->
+<section id="pacotes">
+  <div class="wrap">
+    <div class="eyebrow">Pacotes</div>
+    <h2>Três formatos, conforme a pergunta que você precisa responder</h2>
+    <p class="section-intro">Na escala de maturidade tecnológica (TRL) usada por editais e investidores, prova de conceito e protótipo são etapas distintas — trabalho nas duas. Os prazos são de referência; o escopo exato é fechado na conversa inicial.</p>
+    <div class="grid grid-3">
+      <div class="card pkg">
+        <h3>Diagnóstico técnico</h3>
+        <div class="duration">~1 semana</div>
+        <p class="goal">Isso é viável? Qual o caminho e onde estão os riscos?</p>
+        <ul>
+          <li>Análise de viabilidade técnica</li>
+          <li>Riscos e pontos críticos</li>
+          <li>Arquitetura e tecnologias sugeridas</li>
+          <li>Estimativa para POC ou protótipo</li>
+        </ul>
+        <div class="price">Valor sob consulta</div>
+        <a class="btn btn-ghost js-wa" data-pkg="Diagnóstico técnico" href="#contato">Quero um diagnóstico</a>
+      </div>
+      <div class="card pkg featured">
+        <span class="tag">Mais procurado</span>
+        <h3>Prova de conceito</h3>
+        <div class="duration">4 a 6 semanas</div>
+        <p class="goal">O mecanismo central da ideia funciona de verdade?</p>
+        <ul>
+          <li>Implementação do núcleo da solução</li>
+          <li>Demonstração funcional</li>
+          <li>Testes com dados reais ou realistas</li>
+          <li>Relatório: o que foi provado e o que não foi</li>
+          <li>Enquadramento no nível de maturidade (TRL)</li>
+          <li>Código-fonte e instruções</li>
+        </ul>
+        <div class="price">Valor sob consulta</div>
+        <a class="btn btn-wa js-wa" data-pkg="Prova de conceito" href="#contato"><svg><use href="#i-wa"/></svg>Quero uma POC</a>
+      </div>
+      <div class="card pkg">
+        <h3>Protótipo para captação</h3>
+        <div class="duration">6 a 10 semanas</div>
+        <p class="goal">Algo apresentável para investidores, bancas e usuários de teste.</p>
+        <ul>
+          <li>Protótipo navegável e publicado</li>
+          <li>Interface pensada para demonstração</li>
+          <li>Documento de maturidade tecnológica (TRL)</li>
+          <li>Caminho técnico até o produto</li>
+          <li>Apoio na parte técnica de editais</li>
+        </ul>
+        <div class="price">Valor sob consulta</div>
+        <a class="btn btn-ghost js-wa" data-pkg="Protótipo para captação" href="#contato">Quero um protótipo</a>
+      </div>
+    </div>
+    <p class="note">Por atuar em dedicação parcial, trabalho com poucos projetos ao mesmo tempo e com escopo fechado. Manutenção e operação contínua não estão incluídas: a entrega é preparada para que seu time — ou outra equipe — dê continuidade.</p>
+  </div>
+</section>
+
+<!-- Por que -->
+<section class="alt">
+  <div class="wrap">
+    <div class="eyebrow">Por que comigo</div>
+    <h2>Rigor de pesquisa, prática de mercado</h2>
+    <div class="why" style="margin-top:36px">
+      <div>
+        <h3>Velocidade sem perder o controle</h3>
+        <p>Uso ferramentas de IA para acelerar o desenvolvimento, sempre com revisão, testes e arquitetura pensada — o código entregue é seu e é compreensível.</p>
+      </div>
+      <div>
+        <h3>Honestidade sobre limites</h3>
+        <p>Uma POC deixa claro o que foi provado e o que ainda não foi. Isso vale mais para um investidor do que uma demonstração que esconde as lacunas.</p>
+      </div>
+      <div>
+        <h3>Documentação que serve para captar</h3>
+        <p>Participei da escrita da parte técnica de muitos projetos de pesquisa e inovação submetidos a agências de fomento — sei como apresentar o que foi construído e provado.</p>
+      </div>
+      <div>
+        <h3>Experiência de ponta a ponta</h3>
+        <p>Da concepção à implantação: plataformas usadas por milhares de pessoas e projetos com grandes empresas e órgãos públicos.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sobre -->
+<section id="sobre">
+  <div class="wrap about">
+    <ul class="facts">
+      <li><strong>Professor Titular</strong><span>Universidade Federal de Lavras (UFLA)</span></li>
+      <li><strong>Doutor</strong><span>Engenharia e Gestão do Conhecimento — UFSC</span></li>
+      <li><strong>Mestre</strong><span>Engenharia de Produção — UFSC</span></li>
+      <li><strong>Bacharel</strong><span>Ciência da Computação — FURB</span></li>
+    </ul>
+    <div class="bio">
+      <div class="eyebrow">Sobre</div>
+      <h2>Raphael Winckler de Bettio</h2>
+      <p>Programo desde os 15 anos. Antes da universidade, passei mais de uma década no mercado: desenvolvedor de ERP, pesquisador em ensino a distância, sócio-fundador de uma startup premiada de portais corporativos, líder técnico em projeto para o governo federal e consultor em sistemas críticos em São Paulo.</p>
+      <p>Na universidade, concebi e implementei plataformas usadas por milhares de pessoas, liderei tecnicamente grandes projetos de inovação em parceria com empresas e governo, e registrei softwares no INPI em áreas como robótica educacional, casas inteligentes e acessibilidade.</p>
+      <p>Sempre vi a computação como ferramenta para resolver problemas reais. Agora dedico parte do meu tempo a ajudar quem tem uma boa ideia a descobrir, rápido e com segurança, se ela funciona.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Espaço reservado para casos (descomentar quando houver)
+<section class="alt" id="casos">
+  <div class="wrap">
+    <div class="eyebrow">Casos</div>
+    <h2>Provas de conceito recentes</h2>
+    <div class="grid grid-3">
+      <div class="card"><h3>Nome do caso</h3><p>Problema · o que foi provado · em quanto tempo.</p></div>
+    </div>
+  </div>
+</section>
+-->
+
+<!-- FAQ -->
+<section class="alt" id="duvidas">
+  <div class="wrap faq">
+    <div class="eyebrow">Dúvidas frequentes</div>
+    <h2>Antes de conversarmos</h2>
+    <details>
+      <summary>Quem fica com o código e a propriedade intelectual?</summary>
+      <p>Você. O código desenvolvido para o projeto é entregue a você, e isso fica definido em contrato. Ferramentas genéricas que eu já tinha antes do projeto podem ser usadas como base, sem limitar o seu uso.</p>
+    </details>
+    <details>
+      <summary>Minha ideia fica em sigilo?</summary>
+      <p>Sim. Assino acordo de confidencialidade (NDA) sem problema, antes mesmo de você detalhar a ideia.</p>
+    </details>
+    <details>
+      <summary>Qual a diferença entre POC, protótipo e MVP?</summary>
+      <p>A POC prova que o mecanismo central funciona. O protótipo mostra como a solução seria usada e serve para apresentar. O MVP é um produto mínimo em operação com clientes reais — normalmente o passo seguinte, feito pelo seu time ou por uma equipe contratada a partir da base entregue.</p>
+    </details>
+    <details>
+      <summary>Por que dedicação parcial?</summary>
+      <p>Sou professor em regime de dedicação exclusiva, e a Lei de Inovação permite atuar em consultoria por algumas horas semanais. Por isso trabalho com escopo fechado e poucos projetos ao mesmo tempo — o que também mantém o foco em cada um.</p>
+    </details>
+    <details>
+      <summary>Atende remotamente?</summary>
+      <p>Sim, todo o trabalho pode ser feito à distância, para qualquer lugar do Brasil, com reuniões online nas demonstrações.</p>
+    </details>
+    <details>
+      <summary>E se a POC mostrar que a ideia não funciona?</summary>
+      <p>Isso também é um resultado — e costuma ser o mais barato que você vai conseguir. O relatório mostra o motivo e, quando existem, os caminhos alternativos.</p>
+    </details>
+  </div>
+</section>
+
+<!-- Contato -->
+<section class="contact" id="contato">
+  <div class="wrap">
+    <div class="eyebrow">Contato</div>
+    <h2>Vamos conversar sobre a sua ideia?</h2>
+    <p class="lead">Me conte em poucas linhas o que você quer testar. Respondo pessoalmente.</p>
+    <div class="actions">
+      <a class="btn btn-wa js-wa" href="#contato"><svg><use href="#i-wa"/></svg>WhatsApp</a>
+      <a class="btn btn-ghost js-li" href="#contato"><svg><use href="#i-li"/></svg>LinkedIn</a>
+      <a class="btn btn-ghost js-mail" href="#contato"><svg><use href="#i-mail"/></svg>E-mail</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>© <span id="year">2026</span> Raphael Winckler de Bettio</div>
+    <div>Consultoria independente, prestada nos termos da Lei de Inovação. Não é um serviço da UFLA.</div>
+  </div>
+</footer>
+
+<a class="fab js-wa" href="#contato" aria-label="Conversar no WhatsApp"><svg><use href="#i-wa"/></svg></a>
+
+<script src="site.js"></script>
+</body>
+</html>
