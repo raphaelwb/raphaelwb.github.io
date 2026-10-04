@@ -1,8 +1,9 @@
 // ===== Edite aqui seus contatos (vale para as duas línguas) =====
 const CONTATO = {
-  whatsapp: "55XXXXXXXXXXX",   // DDI + DDD + número, só dígitos. Ex.: 5535999998888
-  email: "seu-email@exemplo.com",
+  whatsapp: "5535988830616",   // DDI + DDD + número, só dígitos
+  email: "raphaelwb@gmail.com",
   linkedin: "https://www.linkedin.com/in/raphael-winckler-de-bettio-2b5999110/",
+  lattes: "http://lattes.cnpq.br/4840661727684904",
   mensagem: {
     pt: "Olá, Raphael! Vi sua página e gostaria de conversar sobre uma ideia.",
     en: "Hi Raphael! I saw your page and would like to talk about an idea."
@@ -28,6 +29,9 @@ const CONTATO = {
   });
   document.querySelectorAll(".js-li").forEach((a) => {
     a.href = CONTATO.linkedin; a.target = "_blank"; a.rel = "noopener";
+  });
+  document.querySelectorAll(".js-lattes").forEach((a) => {
+    a.href = CONTATO.lattes; a.target = "_blank"; a.rel = "noopener";
   });
   document.querySelectorAll(".js-mail").forEach((a) => {
     if (configured(CONTATO.email)) a.href = `mailto:${CONTATO.email}`;
