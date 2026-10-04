@@ -416,3 +416,17 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
 .doc-thumb:hover { transform: rotate(0deg) scale(1.01); }
 .doc-thumb img { width: 100%; display: block; }
 @media (max-width: 900px) { .example-band .wrap { grid-template-columns: 1fr; } .doc-thumb { transform: none; max-height: 360px; } }
+
+/* Testimonial band */
+.testimonial { background: #12302d; color: #eef6f4; }
+.testimonial .wrap { max-width: 900px; }
+.testimonial .eyebrow { color: #5eead4; }
+.testimonial blockquote { margin: 0; }
+.testimonial .highlight { font-size: clamp(1.4rem, 3vw, 2rem); line-height: 1.3; font-weight: 700; letter-spacing: -0.01em; color: #fff; margin: 0 0 24px; }
+.testimonial .body p { color: #c9dcd8; font-size: 1.02rem; }
+.testimonial .who { display: flex; align-items: center; gap: 14px; margin-top: 26px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,.15); }
+.testimonial .who strong { color: #fff; display: block; }
+.testimonial .who span { color: #9fbdb8; font-size: .9rem; }
+.testimonial .who a { color: #5eead4; display: inline-flex; align-items: center; gap: 6px; font-size: .9rem; text-decoration: none; margin-left: auto; }
+.testimonial .who a svg { width: 16px; height: 16px; }
+.testimonial .tagline { display: inline-block; font-size: .78rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: #12302d; background: #5eead4; padding: 3px 10px; border-radius: 999px; margin-bottom: 18px; }
