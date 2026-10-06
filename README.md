@@ -38,3 +38,10 @@ Abrir http://localhost:8000
 ## Casos
 
 Há uma seção `#casos` comentada no HTML, pronta para receber os primeiros casos.
+
+## Contador de visitas
+
+As páginas carregam o GoatCounter (gratuito, sem cookies, não exige aviso de cookies).
+Para ativar, crie a conta em https://www.goatcounter.com/signup usando o código **raphaelwb**
+(o painel fica em https://raphaelwb.goatcounter.com). Se escolher outro código, troque
+`raphaelwb.goatcounter.com` no `<head>` das seis páginas.
