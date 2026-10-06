@@ -460,3 +460,21 @@ nav a.link { white-space: nowrap; }
 .free-talk h3 { margin: 0 0 4px; }
 .free-talk p { margin: 0; color: var(--ink-soft); font-size: .96rem; }
 @media (max-width: 760px) { .free-talk { grid-template-columns: 1fr; text-align: left; } .free-talk .badge { justify-self: start; } }
+
+/* Testimonial context and link from the free-talk box */
+.t-context { margin: 16px 0 0; padding-top: 14px; border-top: 1px dashed currentColor; font-size: .9rem; opacity: .85; }
+.talk-link { display: inline-block; margin-top: 10px; font-weight: 600; font-size: .95rem; }
+
+/* Maturity stage: POC › Prototype › MVP › In production */
+.maturity { display: flex; flex-wrap: wrap; gap: 4px; list-style: none; padding: 0; margin: 0 0 14px; }
+.maturity li {
+  font-size: .76rem; font-weight: 600; padding: 4px 10px; border-radius: 999px;
+  border: 1px solid var(--line); color: var(--ink-faint); background: var(--surface);
+}
+.maturity li.done { background: var(--accent-soft); color: var(--accent); border-color: transparent; }
+.maturity li.on { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.case-index .stage-badge {
+  align-self: flex-start; font-size: .72rem; font-weight: 700; letter-spacing: .03em;
+  padding: 3px 9px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); margin: 2px 0 6px;
+}
+.case-index .stage-badge.s4 { background: var(--accent); color: var(--accent-ink); }
