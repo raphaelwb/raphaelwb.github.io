@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Exemplo de documento técnico para edital — Raphael de Bettio</title>
+<title>Exemplo de documento técnico para edital (versão resumida) — Raphael de Bettio</title>
 <meta name="description" content="Versão resumida de uma proposta real de P&D para edital de fomento, elaborada a partir de uma prova de conceito.">
 <meta property="og:title" content="Exemplo de documento técnico para edital — Raphael de Bettio">
 <meta property="og:description" content="Sua ideia funcionando em semanas, para validar, testar ou captar recursos.">
@@ -52,15 +52,16 @@
       <div class="doc-actions"><a class="btn btn-ghost btn-sm" href="portfolio.html#plantia">← Voltar para o portfólio</a><button class="btn btn-wa btn-sm" type="button" onclick="window.print()">Salvar em PDF</button></div>
     </div>
     <article class="doc">
+<p class="eyebrow">Versão resumida para divulgação</p>
 <h1>PLANTIA: Otimização Generativa de Arranjos Físicos 3D para Agroindústrias via Inteligência Artificial Híbrida</h1>
 <dl class="meta">
-<dt>Proponente</dt><dd>Empresa de engenharia especializada em fábricas de ração animal</dd>
+<dt>Proponente</dt><dd>Empresa de engenharia especializada em plantas agroindustriais</dd>
 <dt>Parceria</dt><dd>Universidade Federal de Lavras (UFLA)</dd>
 <dt>Maturidade atual</dt><dd>TRL 3 — prova de conceito analítica e experimental</dd>
 <dt>Duração prevista</dt><dd>24 meses</dd>
 </dl>
 <h2>1. Contextualização</h2>
-<p>O PLANTIA propõe uma plataforma de <strong>inteligência artificial híbrida</strong> para automatizar e acelerar a elaboração de layouts industriais preliminares e de propostas comerciais na fase de pré-venda. Inicialmente voltada a <strong>fábricas de ração animal</strong>, a solução integra modelos de linguagem (LLMs) e otimização combinatória para transformar demandas descritas em linguagem natural em arranjos otimizados de equipamentos, gerando ao mesmo tempo o layout 3D, a lista de equipamentos, a estimativa de investimento (CAPEX) e o modelo visual para o SketchUp.</p>
+<p>O PLANTIA propõe uma plataforma de <strong>inteligência artificial híbrida</strong> para automatizar e acelerar a elaboração de layouts industriais preliminares e de propostas comerciais na fase de pré-venda. Inicialmente voltada a <strong>plantas de processamento agroindustrial</strong>, a solução integra modelos de linguagem (LLMs) e otimização combinatória para transformar demandas descritas em linguagem natural em arranjos otimizados de equipamentos, gerando ao mesmo tempo o layout 3D, a lista de equipamentos, a estimativa de investimento (CAPEX) e o modelo visual para o SketchUp.</p>
 <p>O desenvolvimento ocorre em parceria com a universidade, com co-titularidade da propriedade intelectual, e a plataforma é estruturada também como infraestrutura de pesquisa, abrindo caminho para dissertações, teses e uma eventual spin-off acadêmica.</p>
 <h2>2. Objetivos</h2>
 <p>Desenvolver, testar e homologar uma plataforma que integre LLMs e otimização para automatizar layouts 3D conceituais e propostas comerciais de instalações industriais. Objetivos específicos:</p>
@@ -73,7 +74,7 @@
 <li><strong>Humano no controle:</strong> permitir ajustes, escolha entre alternativas e retorno a estados anteriores do projeto.</li>
 </ul>
 <h2>3. Relevância e aderência ao edital</h2>
-<p>O projeto ataca um gargalo da elaboração de propostas e orçamentos para fábricas de ração, hoje manual, lento e sujeito a retrabalho, reduzindo tempo e esforço na pré-venda e contribuindo para a eficiência da cadeia do agronegócio. A arquitetura modular permite aplicação futura em outros setores industriais.</p>
+<p>O projeto ataca um gargalo da elaboração de propostas e orçamentos para plantas agroindustriais, hoje manual, lento e sujeito a retrabalho, reduzindo tempo e esforço na pré-venda e contribuindo para a eficiência da cadeia do agronegócio. A arquitetura modular permite aplicação futura em outros setores industriais.</p>
 <p>A arquitetura de IA híbrida — um módulo semântico baseado em LLMs e um módulo de decisão por otimização combinatória — está alinhada à definição de inteligência artificial do Plano Brasileiro de Inteligência Artificial (PBIA) e ao seu eixo de IA para inovação empresarial, além de contribuir para reduzir a dependência de ferramentas estrangeiras de CAD e simulação, de licenças caras e pouco voltadas à produção de orçamentos.</p>
 <h2>4. Metodologia</h2>
 <p>O desenvolvimento segue um ciclo em espiral. Um <strong>LLM local</strong> interpreta a descrição do processo e a converte numa especificação estruturada em JSON, sem executar cálculos físicos. A especificação alimenta um <strong>modelo tridimensional discreto</strong> do galpão, em que equipamentos são blocos com dimensões, posições e conectores, sujeitos a regras de compatibilidade e fluxo. Um <strong>solver de otimização</strong> define o arranjo respeitando espaço, não sobreposição, limites do galpão e conectividade, buscando minimizar área ocupada e interconexões. O layout é convertido automaticamente em <strong>scripts Ruby para o SketchUp</strong>, e modelos paramétricos estimam o CAPEX de fabricação e montagem. Todo o processo é coordenado por uma interface em que o engenheiro combina comandos em linguagem natural com controles gráficos, com histórico de decisões que permite revisar e experimentar sem perder configurações anteriores.</p>

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Example funding document — Raphael de Bettio</title>
+<title>Example funding document (condensed version) — Raphael de Bettio</title>
 <meta name="description" content="Condensed version of a real R&D proposal for a funding call, built on a proof of concept.">
 <meta property="og:title" content="Example funding document — Raphael de Bettio">
 <meta property="og:description" content="Your idea working in weeks — to validate, test or raise funding.">
@@ -52,15 +52,16 @@
       <div class="doc-actions"><a class="btn btn-ghost btn-sm" href="portfolio.html#plantia">← Back to the portfolio</a><button class="btn btn-wa btn-sm" type="button" onclick="window.print()">Save as PDF</button></div>
     </div>
     <article class="doc">
+<p class="eyebrow">Condensed version for publication</p>
 <h1>PLANTIA: Generative Optimization of 3D Physical Layouts for Agribusiness via Hybrid Artificial Intelligence</h1>
 <dl class="meta">
-<dt>Applicant</dt><dd>Engineering company specialized in animal-feed factories</dd>
+<dt>Applicant</dt><dd>Engineering company specialized in agro-industrial plants</dd>
 <dt>Partner</dt><dd>Federal University of Lavras (UFLA)</dd>
 <dt>Current maturity</dt><dd>TRL 3 — analytical and experimental proof of concept</dd>
 <dt>Planned duration</dt><dd>24 months</dd>
 </dl>
 <h2>1. Context</h2>
-<p>PLANTIA proposes a <strong>hybrid artificial intelligence</strong> platform to automate and speed up preliminary industrial layouts and sales proposals in the pre-sales phase. Initially aimed at <strong>animal-feed factories</strong>, it combines large language models (LLMs) and combinatorial optimization to turn demands written in natural language into optimized equipment arrangements, producing at once the 3D layout, the equipment list, the investment estimate (CAPEX) and the visual model for SketchUp.</p>
+<p>PLANTIA proposes a <strong>hybrid artificial intelligence</strong> platform to automate and speed up preliminary industrial layouts and sales proposals in the pre-sales phase. Initially aimed at <strong>agro-industrial processing plants</strong>, it combines large language models (LLMs) and combinatorial optimization to turn demands written in natural language into optimized equipment arrangements, producing at once the 3D layout, the equipment list, the investment estimate (CAPEX) and the visual model for SketchUp.</p>
 <p>Development takes place in partnership with the university, with shared intellectual property, and the platform is also structured as research infrastructure, opening the way to theses and a possible academic spin-off.</p>
 <h2>2. Objectives</h2>
 <p>To develop, test and certify a platform that integrates LLMs and optimization to automate conceptual 3D layouts and sales proposals for industrial plants. Specific objectives:</p>
@@ -73,7 +74,7 @@
 <li><strong>Human in control:</strong> allow adjustments, choosing between alternatives and returning to previous project states.</li>
 </ul>
 <h2>3. Relevance and fit with the call</h2>
-<p>The project tackles a bottleneck in preparing proposals and budgets for feed factories — today manual, slow and prone to rework — cutting pre-sales time and effort and improving efficiency in the agribusiness chain. Its modular architecture allows future use in other industrial sectors.</p>
+<p>The project tackles a bottleneck in preparing proposals and budgets for agro-industrial plants — today manual, slow and prone to rework — cutting pre-sales time and effort and improving efficiency in the agribusiness chain. Its modular architecture allows future use in other industrial sectors.</p>
 <p>The hybrid AI architecture — a semantic module based on LLMs and a decision module based on combinatorial optimization — matches the definition of AI in the Brazilian Artificial Intelligence Plan (PBIA) and its pillar on AI for business innovation, while reducing dependence on foreign CAD and simulation tools with costly licenses and little focus on budgeting.</p>
 <h2>4. Methodology</h2>
 <p>Development follows a spiral cycle. A <strong>local LLM</strong> interprets the process description and turns it into a structured JSON specification, without doing physical calculations. The specification feeds a <strong>discrete three-dimensional model</strong> of the building, in which machines are blocks with dimensions, positions and connectors, subject to compatibility and flow rules. An <strong>optimization solver</strong> defines the arrangement respecting space, non-overlap, building limits and connectivity, while minimizing occupied area and interconnections. The layout is automatically converted into <strong>Ruby scripts for SketchUp</strong>, and parametric models estimate manufacturing and assembly CAPEX. The whole process is coordinated by an interface where the engineer combines natural-language commands with graphical controls, with a decision history that allows reviewing and experimenting without losing earlier configurations.</p>
