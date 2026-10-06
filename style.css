@@ -486,3 +486,4 @@ nav a.link { white-space: nowrap; }
 .hero-center .wrap { text-align: center; }
 .hero-center .lead { max-width: 760px; margin-left: auto; margin-right: auto; }
 .hero-center .actions, .hero-center .creds { justify-content: center; }
+.hero-center .note { max-width: 760px; margin-left: auto; margin-right: auto; }
