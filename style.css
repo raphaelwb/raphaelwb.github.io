@@ -449,3 +449,7 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
 .t-card summary { display: inline; font-size: .9rem; }
 .t-card summary::after { content: " ↓"; color: #5eead4; font-size: .9rem; }
 .t-card details[open] summary::after { content: " ↑"; }
+
+/* Header with full name: keep nav on one line */
+nav a.link { white-space: nowrap; }
+@media (max-width: 1020px) { nav a.link { display: none; } }
