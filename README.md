@@ -1,24 +1,22 @@
-# consultoria
+# Raphael Winckler de Bettio — Provas de Conceito e Protótipos
 
-Página de consultoria em provas de conceito e protótipos, em português e inglês. HTML estático, sem build.
+Código-fonte do site **https://raphaelwb.github.io** — consultoria em provas de conceito e protótipos para startups e empresas, em português e inglês.
 
-| Arquivo | O quê |
+*Source code of the website above — proof-of-concept and prototype consulting for startups, in Portuguese and English.*
+
+## Estrutura
+
+Site estático, sem build e sem dependências: HTML, CSS e um pouco de JavaScript.
+
+| Arquivo | Conteúdo |
 |---|---|
-| `index.html` | Página em português |
-| `en/index.html` | Página em inglês (mesma estrutura) |
-| `style.css` | Visual compartilhado |
-| `site.js` | Contatos e links do WhatsApp (vale para as duas) |
-| `portfolio.html`, `en/portfolio.html` | Portfólio de casos (galeria + diagrama + arquitetura) |
-| `exemplo-edital.html`, `en/exemplo-edital.html` | Exemplo de entrega: documento técnico para edital |
+| `index.html`, `en/index.html` | Página inicial |
+| `portfolio.html`, `en/portfolio.html` | Portfólio de casos, com galeria, diagrama e arquitetura |
+| `exemplo-edital.html`, `en/exemplo-edital.html` | Exemplo de entrega: documento técnico para edital (versão resumida) |
+| `style.css` | Visual compartilhado, com tema claro e escuro |
+| `site.js` | Links de contato (WhatsApp, e-mail, LinkedIn, Lattes) |
 | `portfolio.js` | Galeria com transição e diagrama sincronizado |
-| `img/` | Imagens em WebP; originais ficam fora do repositório |
-
-Ao mudar um texto, lembre de mudar nas duas páginas.
-
-## Editar contatos
-
-No início de `site.js`, bloco `CONTATO`: número do WhatsApp (só dígitos, com 55 + DDD), e-mail, LinkedIn e a mensagem padrão em cada língua.
-Enquanto o número tiver `X`, os botões de WhatsApp apenas rolam até a seção de contato.
+| `img/` | Imagens em WebP |
 
 ## Ver localmente
 
@@ -26,22 +24,14 @@ Enquanto o número tiver `X`, os botões de WhatsApp apenas rolam até a seção
 python3 -m http.server 8000
 ```
 
-Abrir http://localhost:8000
+Depois, abrir http://localhost:8000.
 
-## Publicar no GitHub Pages
+## Direitos
 
-1. Repositório público `raphaelwb/raphaelwb.github.io` (renomeado de `consultoria`).
-2. `git add . && git commit -m "..." && git push`
-3. Em *Settings → Pages*: Source = *Deploy from a branch*, branch `main`, pasta `/ (root)`.
-4. Em 1–2 minutos a página fica em https://raphaelwb.github.io/ (inglês em https://raphaelwb.github.io/en/)
+Textos, imagens e identidade visual: © Raphael Winckler de Bettio. Todos os direitos reservados.
+Os casos do portfólio citam projetos institucionais da Universidade Federal de Lavras (UFLA) e de seus parceiros, que pertencem aos respectivos titulares.
+A tela do simulador de tráfego vem da documentação oficial do [Eclipse SUMO](https://eclipse.dev/sumo/) (© DLR e colaboradores, EPL-2.0).
 
-## Casos
+## Contato
 
-Há uma seção `#casos` comentada no HTML, pronta para receber os primeiros casos.
-
-## Contador de visitas
-
-As páginas carregam o GoatCounter (gratuito, sem cookies, não exige aviso de cookies).
-Para ativar, crie a conta em https://www.goatcounter.com/signup usando o código **raphaelwb**
-(o painel fica em https://raphaelwb.goatcounter.com). Se escolher outro código, troque
-`raphaelwb.goatcounter.com` no `<head>` das seis páginas.
+https://raphaelwb.github.io · [LinkedIn](https://www.linkedin.com/in/raphael-winckler-de-bettio-2b5999110/) · [Currículo Lattes](http://lattes.cnpq.br/4840661727684904)
