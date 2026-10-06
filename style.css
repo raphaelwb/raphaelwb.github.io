@@ -478,3 +478,11 @@ nav a.link { white-space: nowrap; }
   padding: 3px 9px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); margin: 2px 0 6px;
 }
 .case-index .stage-badge.s4 { background: var(--accent); color: var(--accent-ink); }
+
+/* Centered section headers (sections whose content is a full-width grid) */
+.centered > .wrap > .eyebrow, .centered > .wrap > h2 { text-align: center; }
+.centered > .wrap > .section-intro { text-align: center; max-width: 720px; margin-left: auto; margin-right: auto; }
+.centered > .wrap > .note { text-align: center; max-width: 760px; margin-left: auto; margin-right: auto; }
+.hero-center .wrap { text-align: center; }
+.hero-center .lead { max-width: 760px; margin-left: auto; margin-right: auto; }
+.hero-center .actions, .hero-center .creds { justify-content: center; }
