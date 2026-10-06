@@ -430,3 +430,22 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
 .testimonial .who a { color: #5eead4; display: inline-flex; align-items: center; gap: 6px; font-size: .9rem; text-decoration: none; margin-left: auto; }
 .testimonial .who a svg { width: 16px; height: 16px; }
 .testimonial .tagline { display: inline-block; font-size: .78rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: #12302d; background: #5eead4; padding: 3px 10px; border-radius: 999px; margin-bottom: 18px; }
+
+/* Two testimonials */
+.testimonial .wrap { max-width: var(--max); }
+.testimonial h2 { color: #fff; margin-bottom: 32px; }
+.t-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
+.t-card { background: rgba(255,255,255,.05); border: 1px solid rgba(255,255,255,.12); border-radius: var(--radius); padding: 28px; display: flex; flex-direction: column; }
+.t-card .highlight { font-size: 1.25rem; margin-bottom: 18px; }
+.t-card .body p { font-size: .96rem; }
+.t-card details { margin-top: 4px; }
+.t-card summary { cursor: pointer; color: #5eead4; font-size: .9rem; font-weight: 600; list-style: none; }
+.t-card summary::-webkit-details-marker { display: none; }
+.t-card details[open] summary { margin-bottom: 10px; }
+.t-card .who { margin-top: auto; padding-top: 20px; }
+@media (max-width: 900px) { .t-grid { grid-template-columns: 1fr; } }
+.t-card .tagline { align-self: flex-start; }
+.t-card details { border: 0; padding: 0; }
+.t-card summary { display: inline; font-size: .9rem; }
+.t-card summary::after { content: " ↓"; color: #5eead4; font-size: .9rem; }
+.t-card details[open] summary::after { content: " ↑"; }
